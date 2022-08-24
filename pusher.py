@@ -25,7 +25,7 @@ def coms():
         time.sleep(5)
         if not cmm:
             break
-        print(cmm)
+        print(str(cmm))
 
 thr1 = Thread(target=coms)
 thr1.start()
