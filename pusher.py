@@ -22,7 +22,7 @@ cmm = 1
 def coms():
     global cmm
     while True:
-        time.sleep(1)
+        time.sleep(5)
         if not cmm:
             break
         print(cmm)
