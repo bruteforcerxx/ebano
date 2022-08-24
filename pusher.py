@@ -19,18 +19,18 @@ commands2 = [
 ]
 cmm = 1
 
-def coms():
+"""def coms():
     global cmm
     while True:
         time.sleep(5)
         if not cmm:
             break
-        print(str(cmm))
+        print(str(cmm))"""
 
-thr1 = Thread(target=coms)
-thr1.start()
+"""thr1 = Thread(target=coms)
+thr1.start()"""
 
-for c in commands:
+for c in commands2:
     cmm = os.popen(c)
     cmm = cmm.readline()
     print(cmm)
