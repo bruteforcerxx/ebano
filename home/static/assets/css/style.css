@@ -156,7 +156,7 @@ button:focus {
 }
 
 .common-btn.two {
-  background-color: #C03D30;
+  background-color: orange;
 }
 
 .common-btn.two:before {
@@ -204,7 +204,7 @@ button:focus {
 .header-area {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #005BB5;
+  background-color: orange;
   position: relative;
   z-index: 9999;
 }
@@ -1878,7 +1878,7 @@ button:focus {
   font-weight: 700;
   color: #fff;
   text-align: center;
-  background-color: #F00041;
+  background-color: orange;
   position: absolute;
   top: 7px;
   left: 0;
@@ -1927,7 +1927,7 @@ button:focus {
 /*----- Home Demo Two CSS -----*/
 /*-- Header --*/
 .header-area.two {
-  background-color: #C03D30;
+  background-color: orange;
 }
 
 /*-- Banner --*/
@@ -1951,7 +1951,7 @@ button:focus {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #C03D30;
+  background-color: #ff9615;
   opacity: .90;
 }
 
@@ -2190,7 +2190,7 @@ button:focus {
 
 /*-- Ideology --*/
 .ideology-area.two .ideology-item .bottom {
-  background-color: #C03D30;
+  background-color: orange;
 }
 
 /*-- Counter --*/
@@ -4813,7 +4813,7 @@ button:focus {
   content: '';
   width: 70px;
   height: 70px;
-  border: 40px solid #F00041;
+  border: 40px solid orange;
   border-radius: 50%;
   position: absolute;
   animation: pre-animate-two 1.73s ease-in-out infinite both reverse;
